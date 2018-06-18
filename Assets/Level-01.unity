@@ -3456,7 +3456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 536852330}
   background: {fileID: 140072950}
-  id: 104
+  id: 0
   mixpanel: {fileID: 1785348462}
   bagpanel: {fileID: 0}
   mix1: {fileID: 317352027}
@@ -4130,7 +4130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 0}
   background: {fileID: 0}
-  id: 307
+  id: 0
   mixpanel: {fileID: 0}
   bagpanel: {fileID: 549194301}
   mix1: {fileID: 0}
@@ -5494,7 +5494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 536852330}
   background: {fileID: 140072950}
-  id: 303
+  id: 0
   mixpanel: {fileID: 1785348462}
   bagpanel: {fileID: 0}
   mix1: {fileID: 317352027}
@@ -6184,7 +6184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 536852330}
   background: {fileID: 140072950}
-  id: 106
+  id: 0
   mixpanel: {fileID: 1785348462}
   bagpanel: {fileID: 0}
   mix1: {fileID: 317352027}
@@ -6673,7 +6673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bag: {fileID: 34587530}
-  prize: 10
+  prize: 100
 --- !u!114 &655258244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8406,7 +8406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 536852330}
   background: {fileID: 140072950}
-  id: 102
+  id: 0
   mixpanel: {fileID: 1785348462}
   bagpanel: {fileID: 0}
   mix1: {fileID: 317352027}
@@ -9046,7 +9046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 0}
   background: {fileID: 0}
-  id: 307
+  id: 0
   mixpanel: {fileID: 0}
   bagpanel: {fileID: 549194301}
   mix1: {fileID: 0}
@@ -9210,7 +9210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 0}
   background: {fileID: 0}
-  id: 307
+  id: 0
   mixpanel: {fileID: 0}
   bagpanel: {fileID: 549194301}
   mix1: {fileID: 0}
@@ -15267,7 +15267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 0}
   background: {fileID: 0}
-  id: 307
+  id: 0
   mixpanel: {fileID: 0}
   bagpanel: {fileID: 549194301}
   mix1: {fileID: 0}
@@ -18157,7 +18157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 0}
   background: {fileID: 0}
-  id: 307
+  id: 0
   mixpanel: {fileID: 0}
   bagpanel: {fileID: 549194301}
   mix1: {fileID: 0}
@@ -19193,7 +19193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 536852330}
   background: {fileID: 140072950}
-  id: 105
+  id: 0
   mixpanel: {fileID: 1785348462}
   bagpanel: {fileID: 0}
   mix1: {fileID: 317352027}
@@ -20887,7 +20887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 536852330}
   background: {fileID: 140072950}
-  id: 101
+  id: 0
   mixpanel: {fileID: 1785348462}
   bagpanel: {fileID: 0}
   mix1: {fileID: 317352027}
@@ -23107,7 +23107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 0}
   background: {fileID: 0}
-  id: 307
+  id: 0
   mixpanel: {fileID: 0}
   bagpanel: {fileID: 549194301}
   mix1: {fileID: 0}
