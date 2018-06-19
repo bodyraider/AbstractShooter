@@ -1,21 +1,23 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
 public class EnemyManager : MonoBehaviour
 {
     public PlayerHealth playerHealth;
-    public GameObject enemy;
+    public List<GameObject> enemy = new List<GameObject>();
     public float spawnTime = 0.5f;
     public Transform spawnPoints;
     public int enemycount = 0;
     public Button nextwave;
     float timer;
-
+    int waves = 0;
     void Update()
     {        
         timer += Time.deltaTime;
         while (enemycount < 10 && timer >= spawnTime)
         {
-            Instantiate(enemy, spawnPoints.position, spawnPoints.rotation);
+            Instantiate(enemy[waves], spawnPoints.position, spawnPoints.rotation);
             enemycount++;
             timer = 0;
         }
@@ -30,5 +32,7 @@ public class EnemyManager : MonoBehaviour
     {
         enemycount = 0;
         PointsManager.killcount = 0;
+        waves++;
+        playerHealth.currentHealth = playerHealth.startingHealth;
     }
 }
