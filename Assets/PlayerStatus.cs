@@ -91,11 +91,12 @@ public class PlayerStatus : MonoBehaviour {
 
     void CalculateBaseProperty()
     {
-        base_atk = 100 + 2*get_power;                   //base_XXX是面板里的白字
+        //base_XXX是面板里的白字，get_XXX是加点得到的
+        base_atk = 100 + 2*get_power;                   //1力量 = 2攻  +10血         
         base_atktime = 100 / (100 + get_quick);
-        base_health = 1000 + 10 * get_strength;
-        base_healspeed = get_strength + get_power;
-        base_def = get_quick;
+        base_health = 1000 + 20 * get_strength;
+        base_healspeed = get_strength / 2;             //1体力 = 20血 +0.5/秒生命恢复
+        base_def = get_quick / 2;                       //1敏捷 = 1%攻速  +0.5格挡
         base_atkspeed = 100 + get_quick;
         base_power = get_power;
         base_strength = get_strength;
@@ -111,11 +112,40 @@ public class PlayerStatus : MonoBehaviour {
         item5info = item5.GetComponent<Item>().GetItemInfo();
         item6info = item6.GetComponent<Item>().GetItemInfo();
 
-        item_atk = item1info.atk + 2 * item1info.power + item2info.atk + 2 * item2info.power + item3info.atk + 2 * item3info.power + item4info.atk + 2 * item4info.power + item5info.atk + 2 * item5info.power + item6info.atk + 2 * item6info.power;
-        item_atkspeed = item1info.atkspeed + item1info.quick + item2info.atkspeed + item2info.quick + item3info.atkspeed + item3info.quick + item4info.atkspeed + item4info.quick + item5info.atkspeed + item5info.quick + item6info.atkspeed + item6info.quick;
-        item_health = item1info.health + 10*item1info.strength + item2info.health + 10 * item2info.strength + item3info.health + 10 * item3info.strength + item4info.health + 10 * item4info.strength + item5info.health + 10 * item5info.strength + item6info.health + 10 * item6info.strength;
-        item_healspeed = item1info.healspeed + item1info.power + item1info.strength + item2info.healspeed + item2info.power + item2info.strength + item3info.healspeed + item3info.power + item3info.strength + item4info.healspeed + item4info.power + item4info.strength + item5info.healspeed + item5info.power + item5info.strength + item6info.healspeed + item6info.power + item6info.strength;
-        item_def = item1info.def + item1info.quick + item2info.def + item2info.quick + item3info.def + item3info.quick + item4info.def + item4info.quick + item5info.def + item5info.quick + item6info.def + item6info.quick;
+        item_atk =   item1info.atk + 2 * item1info.power 
+                   + item2info.atk + 2 * item2info.power 
+                   + item3info.atk + 2 * item3info.power 
+                   + item4info.atk + 2 * item4info.power 
+                   + item5info.atk + 2 * item5info.power 
+                   + item6info.atk + 2 * item6info.power;
+
+        item_atkspeed =   item1info.atkspeed + item1info.quick 
+                        + item2info.atkspeed + item2info.quick 
+                        + item3info.atkspeed + item3info.quick 
+                        + item4info.atkspeed + item4info.quick 
+                        + item5info.atkspeed + item5info.quick 
+                        + item6info.atkspeed + item6info.quick;
+
+        item_health =     item1info.health + 20*item1info.strength 
+                        + item2info.health + 20 * item2info.strength 
+                        + item3info.health + 20 * item3info.strength 
+                        + item4info.health + 20 * item4info.strength 
+                        + item5info.health + 20 * item5info.strength 
+                        + item6info.health + 20 * item6info.strength;
+
+        item_healspeed =   item1info.healspeed  + item1info.strength / 2 
+                         + item2info.healspeed  + item2info.strength / 2 
+                         + item3info.healspeed  + item3info.strength / 2
+                         + item4info.healspeed  + item4info.strength / 2
+                         + item5info.healspeed  + item5info.strength / 2
+                         + item6info.healspeed  + item6info.strength / 2;
+
+        item_def =   item1info.def + item1info.quick / 2
+                   + item2info.def + item2info.quick / 2
+                   + item3info.def + item3info.quick / 2
+                   + item4info.def + item4info.quick / 2
+                   + item5info.def + item5info.quick / 2
+                   + item6info.def + item6info.quick / 2;
         item_power = item1info.power + item2info.power + item3info.power + item4info.power + item5info.power + item6info.power;
         item_strength = item1info.strength + item2info.strength + item3info.strength + item4info.strength + item5info.strength + item6info.strength;
         item_quick = item1info.quick + item2info.quick + item3info.quick + item4info.quick + item5info.quick + item6info.quick;                

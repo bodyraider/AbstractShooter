@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 4464
+  controlID: 1232
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 4478
+  controlID: 1280
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 4374
+  controlID: 1233
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -466,10 +466,10 @@ MonoBehaviour:
     height: 435
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 190}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 9efbffff000000001031000046310000c4320000e0320000ec350000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 8a330000
+    m_LastClickedID: 13194
+    m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -531,19 +531,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\bodyraider\Documents\GitHub\AbstractShooter
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 180}
-    m_SelectedIDs: 682e0000
-    m_LastClickedID: 11880
-    m_ExpandedIDs: 000000009c280000c0280000542a00006c2a00001c2b0000a62c0000be2c0000ba2e000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: 9c280000
+    m_LastClickedID: 10396
+    m_ExpandedIDs: 000000009c280000c0280000542a00006c2a00001c2b0000be2c0000d62c0000e22e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -571,7 +571,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009c280000c0280000542a00006c2a00001c2b0000a62c0000be2c0000ba2e000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000009c280000c0280000542a00006c2a00001c2b0000be2c0000d62c0000e22e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -623,7 +623,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 143}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 232
 --- !u!114 &17
