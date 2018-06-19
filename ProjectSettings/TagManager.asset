@@ -32,6 +32,7 @@ TagManager:
   - Item22
   - Item23
   - Item24
+  - LookPoint
   layers:
   - Default
   - TransparentFX

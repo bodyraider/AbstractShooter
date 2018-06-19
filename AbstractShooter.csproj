@@ -309,6 +309,7 @@
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\GetItemIntoBag.cs" />
     <Compile Include="Assets\Healthshow.cs" />
+    <Compile Include="Assets\HealthUILookAtYou.cs" />
     <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\ItemId.cs" />
     <Compile Include="Assets\ItemsInfo.cs" />

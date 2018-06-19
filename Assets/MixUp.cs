@@ -7,7 +7,7 @@ public class MixUp : MonoBehaviour {
     public Image item1;
     public Image item2;
     public GameObject bag;
-
+    public Text description;
     public void MixUpTwoItems()
     {
         int output;
@@ -22,7 +22,7 @@ public class MixUp : MonoBehaviour {
             getItemIntoBag.InsertItemIntoGrid(output);
             _item1.id = 0;
             _item2.id = 0;
-
+            description.text = "";
         }
 
 
