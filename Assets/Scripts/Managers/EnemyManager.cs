@@ -22,7 +22,8 @@ public class EnemyManager : MonoBehaviour
         nextwaveinfo.text =   "敌人数据：" + '\n'
                             + "血量   " + enemy[waves + 1].GetComponent<EnemyHealth>().startingHealth + '\n'
                             + "赏金   " + enemy[waves + 1].GetComponent<EnemyHealth>().scoreValue + '\n'
-                            + "伤害   " + enemy[waves + 1].GetComponent<EnemyAttack>().attackDamage;
+                            + "伤害   " + enemy[waves + 1].GetComponent<EnemyAttack>().attackDamage + '\n'
+                            + "点数   " + enemy[waves + 1].GetComponent<EnemyHealth>().propoint;
         timer += Time.deltaTime;
         while (enemycount < 10 && timer >= spawnTime)
         {
