@@ -10,10 +10,19 @@ public class EnemyManager : MonoBehaviour
     public Transform spawnPoints;
     public int enemycount = 0;
     public Button nextwave;
+    public Text wavescount;
+    public Text nextwaveinfo;
     float timer;
     int waves = 0;
     void Update()
-    {        
+    {
+        int showwaves = waves + 1;
+        wavescount.text = "第" + showwaves + "波";
+
+        nextwaveinfo.text =   "敌人数据：" + '\n'
+                            + "血量   " + enemy[waves + 1].GetComponent<EnemyHealth>().startingHealth + '\n'
+                            + "赏金   " + enemy[waves + 1].GetComponent<EnemyHealth>().scoreValue + '\n'
+                            + "伤害   " + enemy[waves + 1].GetComponent<EnemyAttack>().attackDamage;
         timer += Time.deltaTime;
         while (enemycount < 10 && timer >= spawnTime)
         {
