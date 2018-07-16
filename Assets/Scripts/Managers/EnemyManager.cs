@@ -32,7 +32,7 @@ public class EnemyManager : MonoBehaviour
             timer = 0;
         }
 
-        if (PointsManager.killcount == 10)
+        if (PointsManager.killcount == 10 && waves < 20)
         {
             nextwave.gameObject.SetActive(true);
         }

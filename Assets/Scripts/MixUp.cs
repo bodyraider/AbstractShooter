@@ -16,7 +16,7 @@ public class MixUp : MonoBehaviour {
         GetItemIntoBag getItemIntoBag = bag.GetComponent<GetItemIntoBag>();
         int id1 = _item1.id;
         int id2 = _item2.id;
-        if (id1 / 100 == id2 / 100 && id1 != 0 && id2 != 0)
+        if (id1 / 100 == id2 / 100 && id1 != 0 && id2 != 0 && id1 / 100 != 7 && id2 / 100 != 7)
         {
             output = (id1 / 100 + 1) * 100 + Random.Range(1, 10);
             getItemIntoBag.InsertItemIntoGrid(output);
