@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class BagUIController : MonoBehaviour {
     public bool isopen = false;
+    public PlayerStatusUIController PlayerStatusUIController;
 	public void Open()
     {
         if (!isopen)
         {
             this.gameObject.SetActive(true);
             isopen = true;
+            if (PlayerStatusUIController.isopen)
+            {
+                PlayerStatusUIController.gameObject.SetActive(false);
+                PlayerStatusUIController.isopen = false;
+            }
         }
         else
         {

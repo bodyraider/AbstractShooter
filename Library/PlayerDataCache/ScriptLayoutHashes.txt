@@ -3,7 +3,7 @@ SceneListBegin?
 Assets/Level-01.unity
 SceneListEnd?
 26b7c48f5719ffd3eeaf366452366e60 Assembly-CSharp.dll:.ItemsInfo
-d7d5d05eb396cc8dcdf1c67efd04036c Assembly-CSharp.dll:.BagUIController
+eb346b9cb81d59b2e1c7fdf7d7ea66f0 Assembly-CSharp.dll:.BagUIController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -177,7 +177,7 @@ f671a42aea5f34fec6a4450a3668c615 Assembly-CSharp.dll:UnityEngine.PostProcessing.
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MoneyManager
 5f577f7739d456a39c90b62b0c94d4ce Assembly-CSharp.dll:CompleteProject.PlayerShooting
 57ba9dcd4a1b1e5f2d5c5f3426413bcf Assembly-CSharp.dll:.Bet
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerStatusUIController
+c54076ed118c0b88a1d791a49562fda4 Assembly-CSharp.dll:.PlayerStatusUIController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:CompleteProject.EnemyMovement
 aba9187deea27c936bcdb8feb8f982af Assembly-CSharp.dll:CompleteProject.GameOverManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PointsManager
